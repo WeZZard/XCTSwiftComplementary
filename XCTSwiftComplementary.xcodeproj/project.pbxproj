@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CD2D7D521772DB700FFD1A9 /* XCTestSophie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D7CB21772DB700FFD1A9 /* XCTestSophie.framework */; };
-		9CD2D7F121772DD100FFD1A9 /* XCTestSophie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D7E821772DD100FFD1A9 /* XCTestSophie.framework */; };
-		9CD2D80D21772DDC00FFD1A9 /* XCTestSophie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D80421772DDC00FFD1A9 /* XCTestSophie.framework */; };
+		9CD2D7D521772DB700FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D7CB21772DB700FFD1A9 /* XCTSwiftComplementary.framework */; };
+		9CD2D7F121772DD100FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D7E821772DD100FFD1A9 /* XCTSwiftComplementary.framework */; };
+		9CD2D80D21772DDC00FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D80421772DDC00FFD1A9 /* XCTSwiftComplementary.framework */; };
 		9CD2D8272177361F00FFD1A9 /* XCTestCase+AssertingThrows.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D8242177361F00FFD1A9 /* XCTestCase+AssertingThrows.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CD2D8282177361F00FFD1A9 /* XCTestCase+AssertingThrows.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D8242177361F00FFD1A9 /* XCTestCase+AssertingThrows.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CD2D8292177361F00FFD1A9 /* XCTestCase+AssertingThrows.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D8242177361F00FFD1A9 /* XCTestCase+AssertingThrows.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,9 +22,9 @@
 		9CD2D83B21773DAE00FFD1A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D8312177364D00FFD1A9 /* XCTest.framework */; };
 		9CD2D83C21773DB400FFD1A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D8332177365700FFD1A9 /* XCTest.framework */; };
 		9CD2D83E21773DBB00FFD1A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D83D21773DBA00FFD1A9 /* XCTest.framework */; };
-		9CD2D84021773E7200FFD1A9 /* XCTestSophie.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D83F21773E6C00FFD1A9 /* XCTestSophie.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CD2D84121773E7300FFD1A9 /* XCTestSophie.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D83F21773E6C00FFD1A9 /* XCTestSophie.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CD2D84221773E7300FFD1A9 /* XCTestSophie.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D83F21773E6C00FFD1A9 /* XCTestSophie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD2D84021773E7200FFD1A9 /* XCTSwiftComplementary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D83F21773E6C00FFD1A9 /* XCTSwiftComplementary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD2D84121773E7300FFD1A9 /* XCTSwiftComplementary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D83F21773E6C00FFD1A9 /* XCTSwiftComplementary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD2D84221773E7300FFD1A9 /* XCTSwiftComplementary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D83F21773E6C00FFD1A9 /* XCTSwiftComplementary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9CD2D7CB21772DB700FFD1A9 /* XCTestSophie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestSophie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD2D7D421772DB700FFD1A9 /* XCTestSophie-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTestSophie-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD2D7E821772DD100FFD1A9 /* XCTestSophie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestSophie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD2D7F021772DD100FFD1A9 /* XCTestSophie-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTestSophie-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD2D80421772DDC00FFD1A9 /* XCTestSophie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestSophie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD2D80C21772DDC00FFD1A9 /* XCTestSophie-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTestSophie-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2D7CB21772DB700FFD1A9 /* XCTSwiftComplementary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTSwiftComplementary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2D7D421772DB700FFD1A9 /* XCTSwiftComplementary-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTSwiftComplementary-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2D7E821772DD100FFD1A9 /* XCTSwiftComplementary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTSwiftComplementary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2D7F021772DD100FFD1A9 /* XCTSwiftComplementary-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTSwiftComplementary-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2D80421772DDC00FFD1A9 /* XCTSwiftComplementary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTSwiftComplementary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2D80C21772DDC00FFD1A9 /* XCTSwiftComplementary-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTSwiftComplementary-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2D81D21772DFA00FFD1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD2D81F21772DFA00FFD1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD2D8242177361F00FFD1A9 /* XCTestCase+AssertingThrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+AssertingThrows.h"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		9CD2D8312177364D00FFD1A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9CD2D8332177365700FFD1A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9CD2D83D21773DBA00FFD1A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/AppleTVOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9CD2D83F21773E6C00FFD1A9 /* XCTestSophie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestSophie.h; sourceTree = "<group>"; };
+		9CD2D83F21773E6C00FFD1A9 /* XCTSwiftComplementary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTSwiftComplementary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD2D7D521772DB700FFD1A9 /* XCTestSophie.framework in Frameworks */,
+				9CD2D7D521772DB700FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD2D7F121772DD100FFD1A9 /* XCTestSophie.framework in Frameworks */,
+				9CD2D7F121772DD100FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD2D80D21772DDC00FFD1A9 /* XCTestSophie.framework in Frameworks */,
+				9CD2D80D21772DDC00FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +124,8 @@
 		9CD2D7BF21772CFE00FFD1A9 = {
 			isa = PBXGroup;
 			children = (
-				9CD2D81B21772DFA00FFD1A9 /* XCTestSophie */,
-				9CD2D81E21772DFA00FFD1A9 /* XCTestSophieTests */,
+				9CD2D81B21772DFA00FFD1A9 /* XCTSwiftComplementary */,
+				9CD2D81E21772DFA00FFD1A9 /* XCTSwiftComplementaryTests */,
 				9CD2D7CC21772DB700FFD1A9 /* Products */,
 				9CD2D8302177364D00FFD1A9 /* Frameworks */,
 			);
@@ -134,37 +134,37 @@
 		9CD2D7CC21772DB700FFD1A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CD2D7CB21772DB700FFD1A9 /* XCTestSophie.framework */,
-				9CD2D7D421772DB700FFD1A9 /* XCTestSophie-macOSTests.xctest */,
-				9CD2D7E821772DD100FFD1A9 /* XCTestSophie.framework */,
-				9CD2D7F021772DD100FFD1A9 /* XCTestSophie-iOSTests.xctest */,
-				9CD2D80421772DDC00FFD1A9 /* XCTestSophie.framework */,
-				9CD2D80C21772DDC00FFD1A9 /* XCTestSophie-tvOSTests.xctest */,
+				9CD2D7CB21772DB700FFD1A9 /* XCTSwiftComplementary.framework */,
+				9CD2D7D421772DB700FFD1A9 /* XCTSwiftComplementary-macOSTests.xctest */,
+				9CD2D7E821772DD100FFD1A9 /* XCTSwiftComplementary.framework */,
+				9CD2D7F021772DD100FFD1A9 /* XCTSwiftComplementary-iOSTests.xctest */,
+				9CD2D80421772DDC00FFD1A9 /* XCTSwiftComplementary.framework */,
+				9CD2D80C21772DDC00FFD1A9 /* XCTSwiftComplementary-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CD2D81B21772DFA00FFD1A9 /* XCTestSophie */ = {
+		9CD2D81B21772DFA00FFD1A9 /* XCTSwiftComplementary */ = {
 			isa = PBXGroup;
 			children = (
 				9CD2D8232177361F00FFD1A9 /* XCTestCase+AssertingThrows */,
 				9CD2D82121772E0800FFD1A9 /* Supporting Files */,
 			);
-			path = XCTestSophie;
+			path = XCTSwiftComplementary;
 			sourceTree = "<group>";
 		};
-		9CD2D81E21772DFA00FFD1A9 /* XCTestSophieTests */ = {
+		9CD2D81E21772DFA00FFD1A9 /* XCTSwiftComplementaryTests */ = {
 			isa = PBXGroup;
 			children = (
 				9CD2D82221772E0E00FFD1A9 /* Supporting Files */,
 			);
-			path = XCTestSophieTests;
+			path = XCTSwiftComplementaryTests;
 			sourceTree = "<group>";
 		};
 		9CD2D82121772E0800FFD1A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CD2D83F21773E6C00FFD1A9 /* XCTestSophie.h */,
+				9CD2D83F21773E6C00FFD1A9 /* XCTSwiftComplementary.h */,
 				9CD2D81D21772DFA00FFD1A9 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD2D8272177361F00FFD1A9 /* XCTestCase+AssertingThrows.h in Headers */,
-				9CD2D84021773E7200FFD1A9 /* XCTestSophie.h in Headers */,
+				9CD2D84021773E7200FFD1A9 /* XCTSwiftComplementary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD2D8282177361F00FFD1A9 /* XCTestCase+AssertingThrows.h in Headers */,
-				9CD2D84121773E7300FFD1A9 /* XCTestSophie.h in Headers */,
+				9CD2D84121773E7300FFD1A9 /* XCTSwiftComplementary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,16 +224,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD2D8292177361F00FFD1A9 /* XCTestCase+AssertingThrows.h in Headers */,
-				9CD2D84221773E7300FFD1A9 /* XCTestSophie.h in Headers */,
+				9CD2D84221773E7300FFD1A9 /* XCTSwiftComplementary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9CD2D7CA21772DB700FFD1A9 /* XCTestSophie-macOS */ = {
+		9CD2D7CA21772DB700FFD1A9 /* XCTSwiftComplementary-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD2D7DD21772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-macOS" */;
+			buildConfigurationList = 9CD2D7DD21772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-macOS" */;
 			buildPhases = (
 				9CD2D7C621772DB700FFD1A9 /* Headers */,
 				9CD2D7C721772DB700FFD1A9 /* Sources */,
@@ -244,14 +244,14 @@
 			);
 			dependencies = (
 			);
-			name = "XCTestSophie-macOS";
+			name = "XCTSwiftComplementary-macOS";
 			productName = "XCTestSophie-macOS";
-			productReference = 9CD2D7CB21772DB700FFD1A9 /* XCTestSophie.framework */;
+			productReference = 9CD2D7CB21772DB700FFD1A9 /* XCTSwiftComplementary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9CD2D7D321772DB700FFD1A9 /* XCTestSophie-macOSTests */ = {
+		9CD2D7D321772DB700FFD1A9 /* XCTSwiftComplementary-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD2D7E021772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-macOSTests" */;
+			buildConfigurationList = 9CD2D7E021772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-macOSTests" */;
 			buildPhases = (
 				9CD2D7D021772DB700FFD1A9 /* Sources */,
 				9CD2D7D121772DB700FFD1A9 /* Frameworks */,
@@ -262,14 +262,14 @@
 			dependencies = (
 				9CD2D7D721772DB700FFD1A9 /* PBXTargetDependency */,
 			);
-			name = "XCTestSophie-macOSTests";
+			name = "XCTSwiftComplementary-macOSTests";
 			productName = "XCTestSophie-macOSTests";
-			productReference = 9CD2D7D421772DB700FFD1A9 /* XCTestSophie-macOSTests.xctest */;
+			productReference = 9CD2D7D421772DB700FFD1A9 /* XCTSwiftComplementary-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CD2D7E721772DD100FFD1A9 /* XCTestSophie-iOS */ = {
+		9CD2D7E721772DD100FFD1A9 /* XCTSwiftComplementary-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD2D7F921772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-iOS" */;
+			buildConfigurationList = 9CD2D7F921772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-iOS" */;
 			buildPhases = (
 				9CD2D7E321772DD100FFD1A9 /* Headers */,
 				9CD2D7E421772DD100FFD1A9 /* Sources */,
@@ -280,14 +280,14 @@
 			);
 			dependencies = (
 			);
-			name = "XCTestSophie-iOS";
+			name = "XCTSwiftComplementary-iOS";
 			productName = "XCTestSophie-iOS";
-			productReference = 9CD2D7E821772DD100FFD1A9 /* XCTestSophie.framework */;
+			productReference = 9CD2D7E821772DD100FFD1A9 /* XCTSwiftComplementary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9CD2D7EF21772DD100FFD1A9 /* XCTestSophie-iOSTests */ = {
+		9CD2D7EF21772DD100FFD1A9 /* XCTSwiftComplementary-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD2D7FC21772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-iOSTests" */;
+			buildConfigurationList = 9CD2D7FC21772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-iOSTests" */;
 			buildPhases = (
 				9CD2D7EC21772DD100FFD1A9 /* Sources */,
 				9CD2D7ED21772DD100FFD1A9 /* Frameworks */,
@@ -298,14 +298,14 @@
 			dependencies = (
 				9CD2D7F321772DD100FFD1A9 /* PBXTargetDependency */,
 			);
-			name = "XCTestSophie-iOSTests";
+			name = "XCTSwiftComplementary-iOSTests";
 			productName = "XCTestSophie-iOSTests";
-			productReference = 9CD2D7F021772DD100FFD1A9 /* XCTestSophie-iOSTests.xctest */;
+			productReference = 9CD2D7F021772DD100FFD1A9 /* XCTSwiftComplementary-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CD2D80321772DDC00FFD1A9 /* XCTestSophie-tvOS */ = {
+		9CD2D80321772DDC00FFD1A9 /* XCTSwiftComplementary-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD2D81521772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-tvOS" */;
+			buildConfigurationList = 9CD2D81521772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-tvOS" */;
 			buildPhases = (
 				9CD2D7FF21772DDC00FFD1A9 /* Headers */,
 				9CD2D80021772DDC00FFD1A9 /* Sources */,
@@ -316,14 +316,14 @@
 			);
 			dependencies = (
 			);
-			name = "XCTestSophie-tvOS";
+			name = "XCTSwiftComplementary-tvOS";
 			productName = "XCTestSophie-tvOS";
-			productReference = 9CD2D80421772DDC00FFD1A9 /* XCTestSophie.framework */;
+			productReference = 9CD2D80421772DDC00FFD1A9 /* XCTSwiftComplementary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9CD2D80B21772DDC00FFD1A9 /* XCTestSophie-tvOSTests */ = {
+		9CD2D80B21772DDC00FFD1A9 /* XCTSwiftComplementary-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CD2D81821772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-tvOSTests" */;
+			buildConfigurationList = 9CD2D81821772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-tvOSTests" */;
 			buildPhases = (
 				9CD2D80821772DDC00FFD1A9 /* Sources */,
 				9CD2D80921772DDC00FFD1A9 /* Frameworks */,
@@ -334,9 +334,9 @@
 			dependencies = (
 				9CD2D80F21772DDC00FFD1A9 /* PBXTargetDependency */,
 			);
-			name = "XCTestSophie-tvOSTests";
+			name = "XCTSwiftComplementary-tvOSTests";
 			productName = "XCTestSophie-tvOSTests";
-			productReference = 9CD2D80C21772DDC00FFD1A9 /* XCTestSophie-tvOSTests.xctest */;
+			productReference = 9CD2D80C21772DDC00FFD1A9 /* XCTSwiftComplementary-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -368,7 +368,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9CD2D7C321772CFE00FFD1A9 /* Build configuration list for PBXProject "XCTestSophie" */;
+			buildConfigurationList = 9CD2D7C321772CFE00FFD1A9 /* Build configuration list for PBXProject "XCTSwiftComplementary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -380,12 +380,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CD2D7CA21772DB700FFD1A9 /* XCTestSophie-macOS */,
-				9CD2D7D321772DB700FFD1A9 /* XCTestSophie-macOSTests */,
-				9CD2D7E721772DD100FFD1A9 /* XCTestSophie-iOS */,
-				9CD2D7EF21772DD100FFD1A9 /* XCTestSophie-iOSTests */,
-				9CD2D80321772DDC00FFD1A9 /* XCTestSophie-tvOS */,
-				9CD2D80B21772DDC00FFD1A9 /* XCTestSophie-tvOSTests */,
+				9CD2D7CA21772DB700FFD1A9 /* XCTSwiftComplementary-macOS */,
+				9CD2D7D321772DB700FFD1A9 /* XCTSwiftComplementary-macOSTests */,
+				9CD2D7E721772DD100FFD1A9 /* XCTSwiftComplementary-iOS */,
+				9CD2D7EF21772DD100FFD1A9 /* XCTSwiftComplementary-iOSTests */,
+				9CD2D80321772DDC00FFD1A9 /* XCTSwiftComplementary-tvOS */,
+				9CD2D80B21772DDC00FFD1A9 /* XCTSwiftComplementary-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -489,17 +489,17 @@
 /* Begin PBXTargetDependency section */
 		9CD2D7D721772DB700FFD1A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CD2D7CA21772DB700FFD1A9 /* XCTestSophie-macOS */;
+			target = 9CD2D7CA21772DB700FFD1A9 /* XCTSwiftComplementary-macOS */;
 			targetProxy = 9CD2D7D621772DB700FFD1A9 /* PBXContainerItemProxy */;
 		};
 		9CD2D7F321772DD100FFD1A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CD2D7E721772DD100FFD1A9 /* XCTestSophie-iOS */;
+			target = 9CD2D7E721772DD100FFD1A9 /* XCTSwiftComplementary-iOS */;
 			targetProxy = 9CD2D7F221772DD100FFD1A9 /* PBXContainerItemProxy */;
 		};
 		9CD2D80F21772DDC00FFD1A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CD2D80321772DDC00FFD1A9 /* XCTestSophie-tvOS */;
+			target = 9CD2D80321772DDC00FFD1A9 /* XCTSwiftComplementary-tvOS */;
 			targetProxy = 9CD2D80E21772DDC00FFD1A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -580,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophie/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,8 +596,8 @@
 					XCTest,
 					"-weak-lswiftXCTest",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-macOS";
-				PRODUCT_NAME = XCTestSophie;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-macOS";
+				PRODUCT_NAME = XCTSwiftComplementary;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -665,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophie/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -680,8 +680,8 @@
 					XCTest,
 					"-weak-lswiftXCTest",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-macOS";
-				PRODUCT_NAME = XCTestSophie;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-macOS";
+				PRODUCT_NAME = XCTSwiftComplementary;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -746,7 +746,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophieTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementaryTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -813,7 +813,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophieTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementaryTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -892,7 +892,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophie/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -908,8 +908,8 @@
 					XCTest,
 					"-weak-lswiftXCTest",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-iOS";
-				PRODUCT_NAME = XCTestSophie;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-iOS";
+				PRODUCT_NAME = XCTSwiftComplementary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = iphonesimulator;
@@ -977,7 +977,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophie/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -992,8 +992,8 @@
 					XCTest,
 					"-weak-lswiftXCTest",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-iOS";
-				PRODUCT_NAME = XCTestSophie;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-iOS";
+				PRODUCT_NAME = XCTSwiftComplementary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = iphonesimulator;
@@ -1060,7 +1060,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophieTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementaryTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1128,7 +1128,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophieTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementaryTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1210,7 +1210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophie/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1225,8 +1225,8 @@
 					XCTest,
 					"-weak-lswiftXCTest",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-tvOS";
-				PRODUCT_NAME = XCTestSophie;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-tvOS";
+				PRODUCT_NAME = XCTSwiftComplementary;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = appletvsimulator;
@@ -1295,7 +1295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophie/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1309,8 +1309,8 @@
 					XCTest,
 					"-weak-lswiftXCTest",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-tvOS";
-				PRODUCT_NAME = XCTestSophie;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-tvOS";
+				PRODUCT_NAME = XCTSwiftComplementary;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = appletvsimulator;
@@ -1377,7 +1377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophieTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementaryTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1444,7 +1444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "XCTestSophieTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "XCTSwiftComplementaryTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1468,7 +1468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CD2D7C321772CFE00FFD1A9 /* Build configuration list for PBXProject "XCTestSophie" */ = {
+		9CD2D7C321772CFE00FFD1A9 /* Build configuration list for PBXProject "XCTSwiftComplementary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D7C421772CFE00FFD1A9 /* Debug */,
@@ -1477,7 +1477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD2D7DD21772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-macOS" */ = {
+		9CD2D7DD21772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D7DE21772DB700FFD1A9 /* Debug */,
@@ -1486,7 +1486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD2D7E021772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-macOSTests" */ = {
+		9CD2D7E021772DB700FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D7E121772DB700FFD1A9 /* Debug */,
@@ -1495,7 +1495,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD2D7F921772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-iOS" */ = {
+		9CD2D7F921772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D7FA21772DD100FFD1A9 /* Debug */,
@@ -1504,7 +1504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD2D7FC21772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-iOSTests" */ = {
+		9CD2D7FC21772DD100FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D7FD21772DD100FFD1A9 /* Debug */,
@@ -1513,7 +1513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD2D81521772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-tvOS" */ = {
+		9CD2D81521772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D81621772DDC00FFD1A9 /* Debug */,
@@ -1522,7 +1522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CD2D81821772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTestSophie-tvOSTests" */ = {
+		9CD2D81821772DDC00FFD1A9 /* Build configuration list for PBXNativeTarget "XCTSwiftComplementary-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CD2D81921772DDC00FFD1A9 /* Debug */,

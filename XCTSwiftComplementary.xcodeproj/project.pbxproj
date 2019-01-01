@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB637E721DC014D00DEF01A /* XCTSwiftComplementaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB637E621DC014D00DEF01A /* XCTSwiftComplementaryTests.swift */; };
+		9CB637E821DC014D00DEF01A /* XCTSwiftComplementaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB637E621DC014D00DEF01A /* XCTSwiftComplementaryTests.swift */; };
+		9CB637E921DC014D00DEF01A /* XCTSwiftComplementaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB637E621DC014D00DEF01A /* XCTSwiftComplementaryTests.swift */; };
 		9CD2D7D521772DB700FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D7CB21772DB700FFD1A9 /* XCTSwiftComplementary.framework */; };
 		9CD2D7F121772DD100FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D7E821772DD100FFD1A9 /* XCTSwiftComplementary.framework */; };
 		9CD2D80D21772DDC00FFD1A9 /* XCTSwiftComplementary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD2D80421772DDC00FFD1A9 /* XCTSwiftComplementary.framework */; };
@@ -52,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9CB637E621DC014D00DEF01A /* XCTSwiftComplementaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTSwiftComplementaryTests.swift; sourceTree = "<group>"; };
 		9CD2D7CB21772DB700FFD1A9 /* XCTSwiftComplementary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTSwiftComplementary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2D7D421772DB700FFD1A9 /* XCTSwiftComplementary-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCTSwiftComplementary-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2D7E821772DD100FFD1A9 /* XCTSwiftComplementary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTSwiftComplementary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				9CD2D82221772E0E00FFD1A9 /* Supporting Files */,
+				9CB637E621DC014D00DEF01A /* XCTSwiftComplementaryTests.swift */,
 			);
 			path = XCTSwiftComplementaryTests;
 			sourceTree = "<group>";
@@ -353,18 +358,21 @@
 					};
 					9CD2D7D321772DB700FFD1A9 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 					9CD2D7E721772DD100FFD1A9 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 					9CD2D7EF21772DD100FFD1A9 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 					9CD2D80321772DDC00FFD1A9 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 					9CD2D80B21772DDC00FFD1A9 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -449,6 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB637E721DC014D00DEF01A /* XCTSwiftComplementaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB637E821DC014D00DEF01A /* XCTSwiftComplementaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB637E921DC014D00DEF01A /* XCTSwiftComplementaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,7 +767,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -822,7 +833,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1070,7 +1081,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphonesimulator;
@@ -1137,7 +1148,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphonesimulator;
@@ -1386,7 +1397,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = appletvsimulator;
@@ -1452,7 +1463,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTestSophie-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.XCTSwiftComplementary-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = appletvsimulator;
